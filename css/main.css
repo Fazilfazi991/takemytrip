@@ -1703,8 +1703,5 @@ p {
 
 /* === LAPTOP SPECIFIC SCALING === */
 @media (min-width: 1024px) and (max-width: 1440px) {
-  body {
-    zoom: 0.8;
-    /* 20% decrease in size */
-  }
+  /* Zoom removed - causes mobile issues */
 }
