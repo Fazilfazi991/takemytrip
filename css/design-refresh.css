@@ -206,3 +206,15 @@ h6 {
     background: var(--gradient-primary);
     border-radius: 2px;
 }
+
+/* === MOBILE ADJUSTMENTS === */
+@media (max-width: 768px) {
+    .testimonial-image-col {
+        display: none !important;
+    }
+
+    .testimonial-content-col {
+        padding: 2rem 1rem !important;
+        text-align: center;
+    }
+}

@@ -393,10 +393,7 @@
     }
 }
 
-/* Remove White Background Hack for Hero Logo */
+/* Logo styling - no filters needed with transparent PNG */
 .hero-logo img {
-    /* Invert colors: White BG -> Black, Dark Text -> White */
-    /* Screen blend: Black becomes transparent, White stays visible */
-    filter: invert(1);
-    mix-blend-mode: screen;
+    /* Transparent logo - no filters needed */
 }
