@@ -1122,6 +1122,10 @@ p {
     text-align: center;
   }
 
+  .about-image-col {
+    display: none;
+  }
+
   .about-content-col {
     padding-right: 0;
   }
