@@ -386,4 +386,17 @@
         display: none;
         /* Hide nav on mobile for this specific hero style, usually hamburger */
     }
+
+    .hero-logo img {
+        height: 50px;
+        /* Smaller logo on mobile */
+    }
+}
+
+/* Remove White Background Hack for Hero Logo */
+.hero-logo img {
+    /* Invert colors: White BG -> Black, Dark Text -> White */
+    /* Screen blend: Black becomes transparent, White stays visible */
+    filter: invert(1);
+    mix-blend-mode: screen;
 }
