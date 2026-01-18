@@ -1508,8 +1508,7 @@ p {
 .footer-logo img {
   height: 70px;
   margin-bottom: 24px;
-  filter: brightness(0) invert(1);
-  /* Make logo white if transparent PNG */
+  display: block;
 }
 
 .footer-tagline {

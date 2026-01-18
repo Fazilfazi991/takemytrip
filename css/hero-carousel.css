@@ -66,14 +66,16 @@
 
 .hero-logo {
     display: inline-block;
-    background: transparent;
+    background: none;
     padding: 0;
     border: none;
+    line-height: 0;
 }
 
 .hero-logo img {
     height: 120px;
     display: block;
+    background: none;
 }
 
 .hero-nav {
