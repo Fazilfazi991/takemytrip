@@ -402,9 +402,11 @@ p {
 }
 
 .card-description {
-  color: var(--color-text-light);
+  color: white !important;
   margin-bottom: var(--spacing-md);
   line-height: 1.6;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.9);
+  font-weight: 500;
 }
 
 .card-price {
