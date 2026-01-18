@@ -217,4 +217,9 @@ h6 {
         padding: 2rem 1rem !important;
         text-align: center;
     }
+
+    /* Also hide the testimonial image by ID if needed */
+    #testimonial-image {
+        display: none !important;
+    }
 }
