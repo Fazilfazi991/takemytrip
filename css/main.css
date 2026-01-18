@@ -209,7 +209,7 @@ p {
 }
 
 .logo-img {
-  height: 180px;
+  height: 60px;
   width: auto;
   object-fit: contain;
 }
@@ -924,6 +924,13 @@ p {
   overflow: hidden;
   box-shadow: var(--shadow-md);
   height: 100%;
+}
+
+.plan-trip-col.logo-img {
+  max-height: 55px;
+  width: auto;
+  display: block;
+  transition: transform var(--transition-normal);
 }
 
 .plan-trip-collage img {
