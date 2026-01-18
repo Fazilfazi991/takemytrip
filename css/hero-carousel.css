@@ -188,6 +188,7 @@
     transform: translateY(30px);
     animation: fadeInUp 0.8s forwards;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    color: #FFC629;
 }
 
 .hero-description {
